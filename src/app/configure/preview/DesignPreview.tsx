@@ -49,7 +49,7 @@ const DesignPreview = ({ configuration }: { configuration: Configuration }) => {
     onError: () => {
       toast({
         title: 'Something went wrong',
-        description: 'There was an error on our end. Please try again.',
+        description: 'As per Indian regulations, only registered Indian businesses (i.e. sole proprietorships, limited liability partnerships and companies, but not individuals) can accept international payments',
         variant: 'destructive',
       })
     },
